@@ -39,7 +39,7 @@ test("new tech skill should be added to student", () => {
 
     expect(student.technologies.length).toBe(4);
     expect(student.technologies[3].title).toBe("JS");
-    expect(student.technologies[3].title).toBeDefined();
+    expect(student.technologies[3].title).toBeDefined ();
 
     
 
