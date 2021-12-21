@@ -4,7 +4,7 @@ type LocalCityType = {
 }
 type AdressType = {
     streetTitle: string
-    city: CityType
+    city: LocalCityType
 }
 type TechType = {
     id: number
