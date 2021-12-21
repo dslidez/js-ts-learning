@@ -18,7 +18,7 @@ const courses = [{ title: "css", price: 110 },
                  { title: "React", price: 150 },
                 ]
 
-const chipPredicate = (course:) => {
+const chipPredicate = (course: CourseType) => {
     return course.price < 160
 } 
 
